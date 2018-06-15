@@ -1,0 +1,24 @@
+{
+  "name": "typescript-workshop",
+  "version": "1.0.0",
+  "description": "A Typescript workshp repo with different examples that include features from Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acc-agvaldezc/typescript-workshop.git"
+  },
+  "author": "Alan Gustavo Valdez Cascajares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acc-agvaldezc/typescript-workshop/issues"
+  },
+  "homepage": "https://github.com/acc-agvaldezc/typescript-workshop#readme",
+  "dependencies": {
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
