@@ -24,4 +24,3 @@ interface Puppy2 {
 const puppy2: Puppy2 = {
    name: "Mascota"
 };
-
