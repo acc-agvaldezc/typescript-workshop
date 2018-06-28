@@ -1,3 +1,6 @@
+/* THIS IS AN EXTERNAL DEPENDENCY TO COLOR OUTPUT */
+let consoleColors = require('colors'); // ECMAScript import statement
+
 //Old Way
 let values = [9.99, .50];
 let oldTotal = values[0],
@@ -19,7 +22,7 @@ let colors = ['red', 'yellow', 'green'],
     greenOld = colors[2];
 
 let [red, yellow, green] = ['red', 'yellow', 'green'];
-console.log(`Destructuring colors: ${red} ${yellow} ${green}`);
+console.log(`Destructuring colors: ${consoleColors.red(red)} ${consoleColors.yellow(yellow)} ${consoleColors.green(green)}`);
 
 let [red2, , green2] = ['red', 'yellow', 'green'];
-console.log(`Destructuring with an ignore: ${red2} ${green2}`);
+console.log(`Destructuring with an ignore: ${consoleColors.red(red2)} ${consoleColors.green(green2)}`);
